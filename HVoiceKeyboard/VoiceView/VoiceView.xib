@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VoiceView">
+            <rect key="frame" x="0.0" y="0.0" width="131" height="135"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="list_yyan.png" translatesAutoresizingMaskIntoConstraints="NO" id="qas-7F-vgO">
+                    <rect key="frame" x="56" y="62" width="27" height="36"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="向上滑动取消" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBa-tn-ubn">
+                    <rect key="frame" x="-18" y="106" width="175" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fnx-6k-w8y">
+                    <rect key="frame" x="32" y="43" width="3" height="10"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7eP-wS-SIJ">
+                    <rect key="frame" x="41" y="40" width="3" height="13"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="4" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LJY-uY-ppd">
+                    <rect key="frame" x="50" y="37" width="3" height="16"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZOK-vI-eRU">
+                    <rect key="frame" x="59" y="34" width="3" height="19"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="6" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="odY-tF-hax">
+                    <rect key="frame" x="68" y="31" width="3" height="22"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="7" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nOq-0E-7fO">
+                    <rect key="frame" x="78" y="28" width="3" height="25"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="8" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xG2-dD-BZ2">
+                    <rect key="frame" x="87" y="25" width="3" height="28"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="9" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Pa-Hh-M6M">
+                    <rect key="frame" x="96" y="22" width="3" height="31"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="10" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qE2-mh-6zm">
+                    <rect key="frame" x="105" y="19" width="3" height="34"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s8H-eD-ntW">
+                    <rect key="frame" x="23" y="46" width="3" height="7"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="line1" destination="s8H-eD-ntW" id="gu4-kE-xkb"/>
+                <outlet property="line10" destination="qE2-mh-6zm" id="N2H-be-J28"/>
+                <outlet property="line2" destination="Fnx-6k-w8y" id="Ykd-c0-LdJ"/>
+                <outlet property="line3" destination="7eP-wS-SIJ" id="1I6-k2-MPC"/>
+                <outlet property="line4" destination="LJY-uY-ppd" id="WGk-5k-9Ry"/>
+                <outlet property="line5" destination="ZOK-vI-eRU" id="0Go-cT-xtM"/>
+                <outlet property="line6" destination="odY-tF-hax" id="wUw-Mk-Ofy"/>
+                <outlet property="line7" destination="nOq-0E-7fO" id="LpS-jc-haw"/>
+                <outlet property="line8" destination="xG2-dD-BZ2" id="9Va-Na-YGL"/>
+                <outlet property="line9" destination="7Pa-Hh-M6M" id="O8m-23-ieu"/>
+            </connections>
+            <point key="canvasLocation" x="112.5" y="345.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="list_yyan.png" width="27" height="36"/>
+    </resources>
+</document>
