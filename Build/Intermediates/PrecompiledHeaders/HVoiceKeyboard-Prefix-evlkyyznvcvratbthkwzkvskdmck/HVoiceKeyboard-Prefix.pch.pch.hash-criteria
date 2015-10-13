@@ -1,0 +1,59 @@
+-x
+objective-c
+-arch
+armv7s
+-std=gnu99
+-fobjc-arc
+-fmodules
+-gmodules
+-fmodules-cache-path=/Users/huxiaoyang/Library/Developer/Xcode/DerivedData/ModuleCache
+-fbuild-session-file=/Users/huxiaoyang/Library/Developer/Xcode/DerivedData/ModuleCache/Session.modulevalidation
+-fpascal-strings
+-O0
+-fno-common
+-DDEBUG=1
+-DCOCOAPODS=1
+-DOBJC_OLD_DISPATCH_PROTOTYPES=0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk
+-miphoneos-version-min=9.0
+-g
+-iquote
+-iquote
+-iquote.
+-iquoteBuild
+-iquoteHVoiceKeyboard
+-iquoteHVoiceKeyboard.xcworkspace
+-iquotePods
+-iquoteHVoiceKeyboard/ifly
+-iquoteHVoiceKeyboard/IflyTools
+-iquoteHVoiceKeyboard/Image
+-iquoteHVoiceKeyboard/VoiceToolBar
+-iquoteHVoiceKeyboard/VoiceView
+-iquoteHVoiceKeyboard.xcworkspace/xcuserdata
+-iquotePods/Headers
+-iquotePods/Local Podspecs
+-iquotePods/MBProgressHUD
+-iquotePods/Target Support Files
+-iquoteHVoiceKeyboard/ifly/lib
+-iquoteHVoiceKeyboard.xcworkspace/xcuserdata/huxiaoyang.xcuserdatad
+-iquotePods/Headers/Private
+-iquotePods/Headers/Public
+-iquotePods/Target Support Files/MBProgressHUD
+-iquotePods/Target Support Files/Pods
+-iquoteHVoiceKeyboard/ifly/lib/sunflower
+-iquotePods/Headers/Private/MBProgressHUD
+-iquotePods/Headers/Public/MBProgressHUD
+-I/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Build/Products/Debug-iphoneos/include
+-I/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Pods/Headers/Public
+-I/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Pods/Headers/Public/MBProgressHUD
+-F/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Build/Products/Debug-iphoneos
+-F/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/ifly/lib
+-isystem
+/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Pods/Headers/Public
+-isystem
+/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Pods/Headers/Public/MBProgressHUD
+arm-apple-darwin15.0.0
+"4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.72)"
+SDK_PRODUCT_BUILD_VERSION=13A340
+13A340

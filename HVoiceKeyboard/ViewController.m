@@ -23,6 +23,8 @@
     NSString *speachResult;
 
     __weak IBOutlet UILabel *stateLB;//显示状态
+    
+//    MBProgressHUD *hud;
 }
 @end
 
@@ -54,6 +56,8 @@
     [voiceBackView setBackgroundColor:[UIColor whiteColor]];
     [voiceBackView setAlpha:0.f];
     [self.view addSubview:voiceBackView];
+    
+//    hud = [[MBProgressHUD alloc] initWithView:self.view];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -103,10 +107,11 @@
 
 -(void)beginToReleaseFinger
 {
-    //停止录音
     [_iFlySpeechRecognizer stopListening];
     
-    
+//    hud.mode = MBProgressHUDModeIndeterminate;
+//    hud.labelText = @"正在识别...";
+//    [hud show:YES];
     //    [[JokeHintService share] showLoadingIndicator:self.view indicatorTitle:@"正在识别..."];
     [self.myTextField resignFirstResponder];
     [self hideVoiceView];
@@ -179,7 +184,10 @@
         
     }else{
         //        [[JokeHintService share] showBubble:@"启动识别服务失败，请稍后重试"];//可能是上次请求未结束，暂不支持多路并发
-        
+//        hud.mode = MBProgressHUDModeText;
+//        hud.labelText = @"启动识别服务失败，请稍后重试";
+//        [hud show:YES];
+//        [hud hide:YES afterDelay:3];
         NSLog(@"提示启动识别服务失败，请稍后重试");
     }
     
@@ -227,6 +235,7 @@
 - (void) onEndOfSpeech
 {
     NSLog(@"停止录音");
+//    [hud hide:YES];
 }
 
 /**
@@ -262,8 +271,11 @@
                 errmsg = error.errorDesc;
                     }
     
-//    [[JokeHintService share] hideLoadingIndicator:self.view];
-//    [[JokeHintService share] showBubble:errmsg];
+//    hud.mode = MBProgressHUDModeText;
+//    hud.labelText = errmsg;
+//    [hud show:YES];
+//    [hud hide:YES afterDelay:3];
+    
     NSLog(@"error:%@",errmsg);
 }
 
