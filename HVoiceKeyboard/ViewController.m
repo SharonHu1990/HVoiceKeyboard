@@ -21,10 +21,8 @@
     UIView *voiceBackView;//背景
     BOOL isCanceled;//是否取消语音识别
     NSString *speachResult;
-
-    __weak IBOutlet UILabel *stateLB;//显示状态
     
-//    MBProgressHUD *hud;
+    MBProgressHUD *hud;
 }
 @end
 
@@ -57,7 +55,7 @@
     [voiceBackView setAlpha:0.f];
     [self.view addSubview:voiceBackView];
     
-//    hud = [[MBProgressHUD alloc] initWithView:self.view];
+    hud = [[MBProgressHUD alloc] initWithView:self.view];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -109,9 +107,9 @@
 {
     [_iFlySpeechRecognizer stopListening];
     
-//    hud.mode = MBProgressHUDModeIndeterminate;
-//    hud.labelText = @"正在识别...";
-//    [hud show:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"正在识别...";
+    [hud show:YES];
     //    [[JokeHintService share] showLoadingIndicator:self.view indicatorTitle:@"正在识别..."];
     [self.myTextField resignFirstResponder];
     [self hideVoiceView];
@@ -183,11 +181,10 @@
     if (ret) {
         
     }else{
-        //        [[JokeHintService share] showBubble:@"启动识别服务失败，请稍后重试"];//可能是上次请求未结束，暂不支持多路并发
-//        hud.mode = MBProgressHUDModeText;
-//        hud.labelText = @"启动识别服务失败，请稍后重试";
-//        [hud show:YES];
-//        [hud hide:YES afterDelay:3];
+        hud.mode = MBProgressHUDModeText;
+        hud.labelText = @"启动识别服务失败，请稍后重试";
+        [hud show:YES];
+        [hud hide:YES afterDelay:3];
         NSLog(@"提示启动识别服务失败，请稍后重试");
     }
     
@@ -235,7 +232,7 @@
 - (void) onEndOfSpeech
 {
     NSLog(@"停止录音");
-//    [hud hide:YES];
+    [hud hide:YES];
 }
 
 /**
@@ -271,10 +268,10 @@
                 errmsg = error.errorDesc;
                     }
     
-//    hud.mode = MBProgressHUDModeText;
-//    hud.labelText = errmsg;
-//    [hud show:YES];
-//    [hud hide:YES afterDelay:3];
+    hud.mode = MBProgressHUDModeText;
+    hud.labelText = errmsg;
+    [hud show:YES];
+    [hud hide:YES afterDelay:3];
     
     NSLog(@"error:%@",errmsg);
 }
