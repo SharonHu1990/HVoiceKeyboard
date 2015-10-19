@@ -283,7 +283,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+<<<<<<< HEAD
 				ARCHS = "$(ARCHS_STANDARD)";
+=======
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -314,10 +317,15 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
+<<<<<<< HEAD
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALID_ARCHS = "arm64 armv7 armv7s";
+=======
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			};
 			name = Debug;
 		};
@@ -325,7 +333,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+<<<<<<< HEAD
 				ARCHS = "$(ARCHS_STANDARD)";
+=======
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -350,12 +361,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+<<<<<<< HEAD
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s";
+=======
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			};
 			name = Release;
 		};
@@ -385,7 +402,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
+<<<<<<< HEAD
 				ONLY_ACTIVE_ARCH = NO;
+=======
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -403,7 +423,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
+<<<<<<< HEAD
 				ONLY_ACTIVE_ARCH = YES;
+=======
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";

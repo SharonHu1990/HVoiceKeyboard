@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		0A12BDF81BC8A8FD00673A1F /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A12BDF71BC8A8FD00673A1F /* ISRDataHelper.m */; settings = {ASSET_TAGS = (); }; };
 		0A173ECB1BCB45B300129C20 /* VoiceToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A173ECA1BCB45B300129C20 /* VoiceToolBar.m */; settings = {ASSET_TAGS = (); }; };
 		0A173ED21BCB499C00129C20 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A173ED11BCB499C00129C20 /* AudioToolbox.framework */; };
@@ -87,12 +88,103 @@
 				0A173ED41BCB49BC00129C20 /* AVFoundation.framework in Frameworks */,
 				0AE26FAD1BC7C024005A8626 /* libSunFlower.a in Frameworks */,
 				1CD727311A3DA3BCB62EFF92 /* libPods.a in Frameworks */,
+=======
+		0A750BE51BCDEE2200E41283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A750BE41BCDEE2200E41283 /* main.m */; };
+		0A750BE81BCDEE2200E41283 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A750BE71BCDEE2200E41283 /* AppDelegate.m */; };
+		0A750BF01BCDEE2200E41283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A750BEF1BCDEE2200E41283 /* Assets.xcassets */; };
+		0A750BF31BCDEE2200E41283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A750BF11BCDEE2200E41283 /* LaunchScreen.storyboard */; };
+		0A84D8AC1BCDF02600E644CE /* list_yyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A84D8A81BCDF02600E644CE /* list_yyan.png */; settings = {ASSET_TAGS = (); }; };
+		0A84D8AD1BCDF02600E644CE /* list_yyj.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A84D8A91BCDF02600E644CE /* list_yyj.png */; settings = {ASSET_TAGS = (); }; };
+		0A84D8AE1BCDF02600E644CE /* list_yyj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A84D8AA1BCDF02600E644CE /* list_yyj@2x.png */; settings = {ASSET_TAGS = (); }; };
+		0A84D8AF1BCDF02600E644CE /* list_yyj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A84D8AB1BCDF02600E644CE /* list_yyj@3x.png */; settings = {ASSET_TAGS = (); }; };
+		0A84D8B21BCDF04B00E644CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84D8B11BCDF04B00E644CE /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		0A84D8BB1BCDF09B00E644CE /* VoiceToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84D8B61BCDF09B00E644CE /* VoiceToolBar.m */; settings = {ASSET_TAGS = (); }; };
+		0A84D8BC1BCDF09B00E644CE /* VoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84D8B91BCDF09B00E644CE /* VoiceView.m */; settings = {ASSET_TAGS = (); }; };
+		0A84D8BD1BCDF09B00E644CE /* VoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A84D8BA1BCDF09B00E644CE /* VoiceView.xib */; settings = {ASSET_TAGS = (); }; };
+		0A84D8C21BCDF0B600E644CE /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A84D8C11BCDF0B600E644CE /* ISRDataHelper.m */; settings = {ASSET_TAGS = (); }; };
+		0A84D8D01BCDF6FC00E644CE /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8CF1BCDF6FC00E644CE /* iflyMSC.framework */; settings = {ASSET_TAGS = (); }; };
+		0A84D8D21BCDF72300E644CE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8D11BCDF72300E644CE /* libz.tbd */; };
+		0A84D8D41BCDF72D00E644CE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8D31BCDF72D00E644CE /* CoreLocation.framework */; };
+		0A84D8D61BCDF73500E644CE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8D51BCDF73500E644CE /* CoreTelephony.framework */; };
+		0A84D8D81BCDF73D00E644CE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8D71BCDF73D00E644CE /* AVFoundation.framework */; };
+		0A84D8DA1BCDF74300E644CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8D91BCDF74300E644CE /* AudioToolbox.framework */; };
+		0A84D8DC1BCDF74C00E644CE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8DB1BCDF74C00E644CE /* AddressBook.framework */; };
+		0A84D8DE1BCDF76200E644CE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8DD1BCDF76200E644CE /* SystemConfiguration.framework */; };
+		0A84D8E01BCDF76F00E644CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8DF1BCDF76F00E644CE /* QuartzCore.framework */; };
+		0A84D8E21BCDF77A00E644CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8E11BCDF77A00E644CE /* UIKit.framework */; };
+		0A84D8E41BCDF78000E644CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8E31BCDF78000E644CE /* Foundation.framework */; };
+		0A84D8E61BCDF78900E644CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A84D8E51BCDF78900E644CE /* CoreGraphics.framework */; };
+		0A84D8EC1BCE049400E644CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A84D8EA1BCE049400E644CE /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		2CCDC027166ADDB55381478A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE2800FAF8DA03473DD1A9D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A750BE01BCDEE2100E41283 /* HVoiceKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HVoiceKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A750BE41BCDEE2200E41283 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A750BE61BCDEE2200E41283 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A750BE71BCDEE2200E41283 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A750BEF1BCDEE2200E41283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A750BF21BCDEE2200E41283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A750BF41BCDEE2200E41283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A84D8A81BCDF02600E644CE /* list_yyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_yyan.png; sourceTree = "<group>"; };
+		0A84D8A91BCDF02600E644CE /* list_yyj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_yyj.png; sourceTree = "<group>"; };
+		0A84D8AA1BCDF02600E644CE /* list_yyj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_yyj@2x.png"; sourceTree = "<group>"; };
+		0A84D8AB1BCDF02600E644CE /* list_yyj@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_yyj@3x.png"; sourceTree = "<group>"; };
+		0A84D8B01BCDF04B00E644CE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A84D8B11BCDF04B00E644CE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A84D8B51BCDF09B00E644CE /* VoiceToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceToolBar.h; sourceTree = "<group>"; };
+		0A84D8B61BCDF09B00E644CE /* VoiceToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceToolBar.m; sourceTree = "<group>"; };
+		0A84D8B81BCDF09B00E644CE /* VoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceView.h; sourceTree = "<group>"; };
+		0A84D8B91BCDF09B00E644CE /* VoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceView.m; sourceTree = "<group>"; };
+		0A84D8BA1BCDF09B00E644CE /* VoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceView.xib; sourceTree = "<group>"; };
+		0A84D8C01BCDF0B600E644CE /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		0A84D8C11BCDF0B600E644CE /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		0A84D8C31BCDF32C00E644CE /* Definition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definition.h; sourceTree = "<group>"; };
+		0A84D8CE1BCDF5E300E644CE /* HVoiceKeyboard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HVoiceKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		0A84D8CF1BCDF6FC00E644CE /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		0A84D8D11BCDF72300E644CE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0A84D8D31BCDF72D00E644CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0A84D8D51BCDF73500E644CE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0A84D8D71BCDF73D00E644CE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0A84D8D91BCDF74300E644CE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A84D8DB1BCDF74C00E644CE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0A84D8DD1BCDF76200E644CE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A84D8DF1BCDF76F00E644CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A84D8E11BCDF77A00E644CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A84D8E31BCDF78000E644CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A84D8E51BCDF78900E644CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A84D8EB1BCE049400E644CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AE2800FAF8DA03473DD1A9D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF53CB69D000E66238CB48 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BB49907A7CF4C447F2BB720C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A750BDD1BCDEE2100E41283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84D8E61BCDF78900E644CE /* CoreGraphics.framework in Frameworks */,
+				0A84D8E41BCDF78000E644CE /* Foundation.framework in Frameworks */,
+				0A84D8E21BCDF77A00E644CE /* UIKit.framework in Frameworks */,
+				0A84D8E01BCDF76F00E644CE /* QuartzCore.framework in Frameworks */,
+				0A84D8DE1BCDF76200E644CE /* SystemConfiguration.framework in Frameworks */,
+				0A84D8DC1BCDF74C00E644CE /* AddressBook.framework in Frameworks */,
+				0A84D8DA1BCDF74300E644CE /* AudioToolbox.framework in Frameworks */,
+				0A84D8D81BCDF73D00E644CE /* AVFoundation.framework in Frameworks */,
+				0A84D8D61BCDF73500E644CE /* CoreTelephony.framework in Frameworks */,
+				0A84D8D41BCDF72D00E644CE /* CoreLocation.framework in Frameworks */,
+				0A84D8D21BCDF72300E644CE /* libz.tbd in Frameworks */,
+				0A84D8D01BCDF6FC00E644CE /* iflyMSC.framework in Frameworks */,
+				2CCDC027166ADDB55381478A /* libPods.a in Frameworks */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		0A12BDF51BC8A8FD00673A1F /* IflyTools */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,10 +233,61 @@
 				0AE26F881BC7BBBF005A8626 /* AppDelegate.h */,
 				0AE26F891BC7BBBF005A8626 /* AppDelegate.m */,
 				0A173ECF1BCB474800129C20 /* Constants.h */,
+=======
+		0A750BD71BCDEE2100E41283 = {
+			isa = PBXGroup;
+			children = (
+				0A84D89C1BCDEF9E00E644CE /* FrameWorks */,
+				0A750BE21BCDEE2200E41283 /* HVoiceKeyboard */,
+				0A750BE11BCDEE2100E41283 /* Products */,
+				47CEF7049C47543A241B4EE4 /* Pods */,
+				FFCD0EB29B1C3EEDF4DC21AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A750BE11BCDEE2100E41283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A750BE01BCDEE2100E41283 /* HVoiceKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A750BE21BCDEE2200E41283 /* HVoiceKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8BE1BCDF0A100E644CE /* Tool */,
+				0A84D8B31BCDF05100E644CE /* View */,
+				0A84D89E1BCDEFC300E644CE /* Resource */,
+				0A84D89D1BCDEFB100E644CE /* ViewController */,
+				0A84D89B1BCDEF9600E644CE /* Application */,
+				0A750BE31BCDEE2200E41283 /* Supporting Files */,
+			);
+			path = HVoiceKeyboard;
+			sourceTree = "<group>";
+		};
+		0A750BE31BCDEE2200E41283 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A750BF41BCDEE2200E41283 /* Info.plist */,
+				0A750BE41BCDEE2200E41283 /* main.m */,
+				0A84D8CE1BCDF5E300E644CE /* HVoiceKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A84D89B1BCDEF9600E644CE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0A750BE61BCDEE2200E41283 /* AppDelegate.h */,
+				0A750BE71BCDEE2200E41283 /* AppDelegate.m */,
+				0A84D8C31BCDF32C00E644CE /* Definition.h */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 			name = Application;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		0A173ED01BCB475600129C20 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,10 +393,122 @@
 			isa = PBXGroup;
 			children = (
 				2B2DE894F10D13D0D410F254 /* libPods.a */,
+=======
+		0A84D89C1BCDEF9E00E644CE /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FrameWorks;
+			path = HVoiceKeyboard;
+			sourceTree = "<group>";
+		};
+		0A84D89D1BCDEFB100E644CE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8B01BCDF04B00E644CE /* ViewController.h */,
+				0A84D8B11BCDF04B00E644CE /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0A84D89E1BCDEFC300E644CE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8EA1BCE049400E644CE /* Main.storyboard */,
+				0A750BEF1BCDEE2200E41283 /* Assets.xcassets */,
+				0A750BF11BCDEE2200E41283 /* LaunchScreen.storyboard */,
+				0A84D89F1BCDEFD100E644CE /* Image */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		0A84D89F1BCDEFD100E644CE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8A81BCDF02600E644CE /* list_yyan.png */,
+				0A84D8A91BCDF02600E644CE /* list_yyj.png */,
+				0A84D8AA1BCDF02600E644CE /* list_yyj@2x.png */,
+				0A84D8AB1BCDF02600E644CE /* list_yyj@3x.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		0A84D8B31BCDF05100E644CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8B41BCDF09B00E644CE /* VoiceToolBar */,
+				0A84D8B71BCDF09B00E644CE /* VoiceView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0A84D8B41BCDF09B00E644CE /* VoiceToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8B51BCDF09B00E644CE /* VoiceToolBar.h */,
+				0A84D8B61BCDF09B00E644CE /* VoiceToolBar.m */,
+			);
+			path = VoiceToolBar;
+			sourceTree = "<group>";
+		};
+		0A84D8B71BCDF09B00E644CE /* VoiceView */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8B81BCDF09B00E644CE /* VoiceView.h */,
+				0A84D8B91BCDF09B00E644CE /* VoiceView.m */,
+				0A84D8BA1BCDF09B00E644CE /* VoiceView.xib */,
+			);
+			path = VoiceView;
+			sourceTree = "<group>";
+		};
+		0A84D8BE1BCDF0A100E644CE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8BF1BCDF0B600E644CE /* IflyTools */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		0A84D8BF1BCDF0B600E644CE /* IflyTools */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8C01BCDF0B600E644CE /* ISRDataHelper.h */,
+				0A84D8C11BCDF0B600E644CE /* ISRDataHelper.m */,
+			);
+			path = IflyTools;
+			sourceTree = "<group>";
+		};
+		47CEF7049C47543A241B4EE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB49907A7CF4C447F2BB720C /* Pods.debug.xcconfig */,
+				B5DF53CB69D000E66238CB48 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFCD0EB29B1C3EEDF4DC21AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A84D8E51BCDF78900E644CE /* CoreGraphics.framework */,
+				0A84D8E31BCDF78000E644CE /* Foundation.framework */,
+				0A84D8E11BCDF77A00E644CE /* UIKit.framework */,
+				0A84D8DF1BCDF76F00E644CE /* QuartzCore.framework */,
+				0A84D8DD1BCDF76200E644CE /* SystemConfiguration.framework */,
+				0A84D8DB1BCDF74C00E644CE /* AddressBook.framework */,
+				0A84D8D91BCDF74300E644CE /* AudioToolbox.framework */,
+				0A84D8D71BCDF73D00E644CE /* AVFoundation.framework */,
+				0A84D8D51BCDF73500E644CE /* CoreTelephony.framework */,
+				0A84D8D31BCDF72D00E644CE /* CoreLocation.framework */,
+				0A84D8D11BCDF72300E644CE /* libz.tbd */,
+				0A84D8CF1BCDF6FC00E644CE /* iflyMSC.framework */,
+				7AE2800FAF8DA03473DD1A9D /* libPods.a */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		DD4761740F0AB4E970A81392 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +531,21 @@
 				0AE26F801BC7BBBF005A8626 /* Resources */,
 				C05D8537F765B94AF52E9AFC /* Embed Pods Frameworks */,
 				6B438C5E98888F0CE89F09E1 /* Copy Pods Resources */,
+=======
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A750BDF1BCDEE2100E41283 /* HVoiceKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A750BF71BCDEE2200E41283 /* Build configuration list for PBXNativeTarget "HVoiceKeyboard" */;
+			buildPhases = (
+				CA174B00B15BE17EDE3B9C08 /* Check Pods Manifest.lock */,
+				0A750BDC1BCDEE2100E41283 /* Sources */,
+				0A750BDD1BCDEE2100E41283 /* Frameworks */,
+				0A750BDE1BCDEE2100E41283 /* Resources */,
+				AC70A6A9BBD94DB9C76B158F /* Embed Pods Frameworks */,
+				9C72AED9EA7769734FDBCC64 /* Copy Pods Resources */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 			buildRules = (
 			);
@@ -283,24 +553,40 @@
 			);
 			name = HVoiceKeyboard;
 			productName = HVoiceKeyboard;
+<<<<<<< HEAD
 			productReference = 0AE26F821BC7BBBF005A8626 /* HVoiceKeyboard.app */;
+=======
+			productReference = 0A750BE01BCDEE2100E41283 /* HVoiceKeyboard.app */;
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		0AE26F7A1BC7BBBF005A8626 /* Project object */ = {
+=======
+		0A750BD81BCDEE2100E41283 /* Project object */ = {
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = HXY;
 				TargetAttributes = {
+<<<<<<< HEAD
 					0AE26F811BC7BBBF005A8626 = {
+=======
+					0A750BDF1BCDEE2100E41283 = {
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 						CreatedOnToolsVersion = 7.0.1;
 					};
 				};
 			};
+<<<<<<< HEAD
 			buildConfigurationList = 0AE26F7D1BC7BBBF005A8626 /* Build configuration list for PBXProject "HVoiceKeyboard" */;
+=======
+			buildConfigurationList = 0A750BDB1BCDEE2100E41283 /* Build configuration list for PBXProject "HVoiceKeyboard" */;
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -308,17 +594,27 @@
 				en,
 				Base,
 			);
+<<<<<<< HEAD
 			mainGroup = 0AE26F791BC7BBBF005A8626;
 			productRefGroup = 0AE26F831BC7BBBF005A8626 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0AE26F811BC7BBBF005A8626 /* HVoiceKeyboard */,
+=======
+			mainGroup = 0A750BD71BCDEE2100E41283;
+			productRefGroup = 0A750BE11BCDEE2100E41283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A750BDF1BCDEE2100E41283 /* HVoiceKeyboard */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 		0AE26F801BC7BBBF005A8626 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,60 +627,109 @@
 				0A173EFA1BCBB1B300129C20 /* list_yyj@2x.png in Resources */,
 				0AE26F901BC7BBBF005A8626 /* Main.storyboard in Resources */,
 				0AE26FA11BC7BD0D005A8626 /* VoiceView.xib in Resources */,
+=======
+		0A750BDE1BCDEE2100E41283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84D8AC1BCDF02600E644CE /* list_yyan.png in Resources */,
+				0A750BF31BCDEE2200E41283 /* LaunchScreen.storyboard in Resources */,
+				0A750BF01BCDEE2200E41283 /* Assets.xcassets in Resources */,
+				0A84D8EC1BCE049400E644CE /* Main.storyboard in Resources */,
+				0A84D8AF1BCDF02600E644CE /* list_yyj@3x.png in Resources */,
+				0A84D8AD1BCDF02600E644CE /* list_yyj.png in Resources */,
+				0A84D8AE1BCDF02600E644CE /* list_yyj@2x.png in Resources */,
+				0A84D8BD1BCDF09B00E644CE /* VoiceView.xib in Resources */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+<<<<<<< HEAD
 		15F22CC090BCB15F5904DDED /* Check Pods Manifest.lock */ = {
+=======
+		9C72AED9EA7769734FDBCC64 /* Copy Pods Resources */ = {
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< HEAD
 			name = "Check Pods Manifest.lock";
+=======
+			name = "Copy Pods Resources";
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< HEAD
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6B438C5E98888F0CE89F09E1 /* Copy Pods Resources */ = {
+=======
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC70A6A9BBD94DB9C76B158F /* Embed Pods Frameworks */ = {
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< HEAD
 			name = "Copy Pods Resources";
+=======
+			name = "Embed Pods Frameworks";
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< HEAD
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C05D8537F765B94AF52E9AFC /* Embed Pods Frameworks */ = {
+=======
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA174B00B15BE17EDE3B9C08 /* Check Pods Manifest.lock */ = {
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+<<<<<<< HEAD
 			name = "Embed Pods Frameworks";
+=======
+			name = "Check Pods Manifest.lock";
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< HEAD
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+=======
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		0AE26F7E1BC7BBBF005A8626 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -395,12 +740,25 @@
 				0AE26F871BC7BBBF005A8626 /* main.m in Sources */,
 				0A12BDF81BC8A8FD00673A1F /* ISRDataHelper.m in Sources */,
 				0AE26FA01BC7BD0D005A8626 /* VoiceView.m in Sources */,
+=======
+		0A750BDC1BCDEE2100E41283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84D8C21BCDF0B600E644CE /* ISRDataHelper.m in Sources */,
+				0A84D8BC1BCDF09B00E644CE /* VoiceView.m in Sources */,
+				0A84D8B21BCDF04B00E644CE /* ViewController.m in Sources */,
+				0A750BE81BCDEE2200E41283 /* AppDelegate.m in Sources */,
+				0A84D8BB1BCDF09B00E644CE /* VoiceToolBar.m in Sources */,
+				0A750BE51BCDEE2200E41283 /* main.m in Sources */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD
 		0AE26F8E1BC7BBBF005A8626 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,12 +773,32 @@
 				0AE26F941BC7BBBF005A8626 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+=======
+		0A750BF11BCDEE2200E41283 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A750BF21BCDEE2200E41283 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A84D8EA1BCE049400E644CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A84D8EB1BCE049400E644CE /* Base */,
+			);
+			name = Main.storyboard;
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		0AE26F971BC7BBBF005A8626 /* Debug */ = {
+=======
+		0A750BF51BCDEE2200E41283 /* Debug */ = {
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -447,7 +825,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HVoiceKeyboard/HVoiceKeyboard-Prefix.pch";
+=======
+				GCC_PREFIX_HEADER = "${SRCROOT}//HVoiceKeyboard/HVoiceKeyboard-Prefix.pch";
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -461,12 +843,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+<<<<<<< HEAD
 				OTHER_LDFLAGS = "";
+=======
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		0AE26F981BC7BBBF005A8626 /* Release */ = {
+=======
+		0A750BF61BCDEE2200E41283 /* Release */ = {
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -491,7 +880,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HVoiceKeyboard/HVoiceKeyboard-Prefix.pch";
+=======
+				GCC_PREFIX_HEADER = "${SRCROOT}//HVoiceKeyboard/HVoiceKeyboard-Prefix.pch";
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -500,12 +893,16 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+<<<<<<< HEAD
 				OTHER_LDFLAGS = "";
+=======
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		0AE26F9A1BC7BBBF005A8626 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92BBEF59BD951A0969907BC0 /* Pods.debug.xcconfig */;
@@ -567,31 +964,82 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				VALID_ARCHS = "armv7 armv7s arm64";
+=======
+		0A750BF81BCDEE2200E41283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB49907A7CF4C447F2BB720C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HVoiceKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HXY.HVoiceKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A750BF91BCDEE2200E41283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DF53CB69D000E66238CB48 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HVoiceKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HXY.HVoiceKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		0AE26F7D1BC7BBBF005A8626 /* Build configuration list for PBXProject "HVoiceKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AE26F971BC7BBBF005A8626 /* Debug */,
 				0AE26F981BC7BBBF005A8626 /* Release */,
+=======
+		0A750BDB1BCDEE2100E41283 /* Build configuration list for PBXProject "HVoiceKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A750BF51BCDEE2200E41283 /* Debug */,
+				0A750BF61BCDEE2200E41283 /* Release */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		0AE26F991BC7BBBF005A8626 /* Build configuration list for PBXNativeTarget "HVoiceKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AE26F9A1BC7BBBF005A8626 /* Debug */,
 				0AE26F9B1BC7BBBF005A8626 /* Release */,
+=======
+		0A750BF71BCDEE2200E41283 /* Build configuration list for PBXNativeTarget "HVoiceKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A750BF81BCDEE2200E41283 /* Debug */,
+				0A750BF91BCDEE2200E41283 /* Release */,
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
+<<<<<<< HEAD
 	rootObject = 0AE26F7A1BC7BBBF005A8626 /* Project object */;
+=======
+	rootObject = 0A750BD81BCDEE2100E41283 /* Project object */;
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 }

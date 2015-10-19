@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/ViewController.o
 /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/AppDelegate.o
 /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/VoiceToolBar.o
 /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/main.o
 /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/ISRDataHelper.o
 /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/VoiceView.o
+=======
+/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/ViewController.o
+/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/AppDelegate.o
+/Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/Build/Intermediates/HVoiceKeyboard.build/Debug-iphonesimulator/HVoiceKeyboard.build/Objects-normal/x86_64/main.o
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720

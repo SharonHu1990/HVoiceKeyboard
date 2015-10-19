@@ -21,10 +21,15 @@
     UIView *voiceBackView;//背景
     BOOL isCanceled;//是否取消语音识别
     NSString *speachResult;
+<<<<<<< HEAD
 
     __weak IBOutlet UILabel *stateLB;//显示状态
     
 //    MBProgressHUD *hud;
+=======
+    
+    MBProgressHUD *hud;
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 }
 @end
 
@@ -44,7 +49,11 @@
     
     
     //初始化语音识别控件
+<<<<<<< HEAD
     NSString *initString = [NSString stringWithFormat:@"%@=%@",[IFlySpeechConstant APPID],FLYAPPID];
+=======
+    NSString *initString = [NSString stringWithFormat:@"%@=%@",[IFlySpeechConstant APPID],APPID_VALUE];
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
     
     //所有服务启动前，需要确保执行createUtility
     [IFlySpeechUtility createUtility:initString];
@@ -57,7 +66,11 @@
     [voiceBackView setAlpha:0.f];
     [self.view addSubview:voiceBackView];
     
+<<<<<<< HEAD
 //    hud = [[MBProgressHUD alloc] initWithView:self.view];
+=======
+    hud = [[MBProgressHUD alloc] initWithView:self.view];
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 }
 
 - (void)didReceiveMemoryWarning {
@@ -109,9 +122,15 @@
 {
     [_iFlySpeechRecognizer stopListening];
     
+<<<<<<< HEAD
 //    hud.mode = MBProgressHUDModeIndeterminate;
 //    hud.labelText = @"正在识别...";
 //    [hud show:YES];
+=======
+    hud.mode = MBProgressHUDModeIndeterminate;
+    hud.labelText = @"正在识别...";
+    [hud show:YES];
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
     //    [[JokeHintService share] showLoadingIndicator:self.view indicatorTitle:@"正在识别..."];
     [self.myTextField resignFirstResponder];
     [self hideVoiceView];
@@ -183,11 +202,18 @@
     if (ret) {
         
     }else{
+<<<<<<< HEAD
         //        [[JokeHintService share] showBubble:@"启动识别服务失败，请稍后重试"];//可能是上次请求未结束，暂不支持多路并发
 //        hud.mode = MBProgressHUDModeText;
 //        hud.labelText = @"启动识别服务失败，请稍后重试";
 //        [hud show:YES];
 //        [hud hide:YES afterDelay:3];
+=======
+        hud.mode = MBProgressHUDModeText;
+        hud.labelText = @"启动识别服务失败，请稍后重试";
+        [hud show:YES];
+        [hud hide:YES afterDelay:3];
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
         NSLog(@"提示启动识别服务失败，请稍后重试");
     }
     
@@ -235,7 +261,11 @@
 - (void) onEndOfSpeech
 {
     NSLog(@"停止录音");
+<<<<<<< HEAD
 //    [hud hide:YES];
+=======
+    [hud hide:YES];
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 }
 
 /**
@@ -249,7 +279,11 @@
     //隐藏语音反馈
     [self hideVoiceView];
     [self.myTextField resignFirstResponder];
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
     NSString *errmsg;
     if(error.errorCode == 0)
             {
@@ -271,10 +305,17 @@
                 errmsg = error.errorDesc;
                     }
     
+<<<<<<< HEAD
 //    hud.mode = MBProgressHUDModeText;
 //    hud.labelText = errmsg;
 //    [hud show:YES];
 //    [hud hide:YES afterDelay:3];
+=======
+    hud.mode = MBProgressHUDModeText;
+    hud.labelText = errmsg;
+    [hud show:YES];
+    [hud hide:YES afterDelay:3];
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
     
     NSLog(@"error:%@",errmsg);
 }

@@ -1,5 +1,6 @@
 dependencies: \
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/ViewController.m \
+<<<<<<< HEAD
   HVoiceKeyboard/ViewController.h \
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/ifly/lib/iflyMSC.framework/Headers/IFlyRecognizerView.h \
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/ifly/lib/iflyMSC.framework/Headers/IFlyRecognizerViewDelegate.h \
@@ -9,6 +10,33 @@ dependencies: \
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/ifly/lib/iflyMSC.framework/Headers/IFlySpeechRecognizer.h \
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/ifly/lib/iflyMSC.framework/Headers/IFlySpeechRecognizerDelegate.h \
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/ifly/lib/iflyMSC.framework/Headers/IFlySetting.h \
+=======
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/ViewController.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/iflyMSC.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyContact.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyDataUploader.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyDebugLog.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyISVDelegate.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyISVRecognizer.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyRecognizerView.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyRecognizerViewDelegate.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyResourceUtil.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySetting.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechConstant.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechError.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechEvaluator.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechEvaluatorDelegate.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechEvent.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechRecognizer.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechRecognizerDelegate.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechSynthesizer.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechSynthesizerDelegate.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechUnderstander.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlySpeechUtility.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyTextUnderstander.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyUserWords.h \
+  /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/iflyMSC.framework/Headers/IFlyPcmRecorder.h \
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/VoiceView/VoiceView.h \
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/IflyTools/ISRDataHelper.h \
   /Users/huxiaoyang/Desktop/MyWorkSpace/HVoiceKeyboard/HVoiceKeyboard/VoiceToolBar/VoiceToolBar.h

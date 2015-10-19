@@ -2,7 +2,11 @@
 //  HVoiceKeyboard-Prefix.pch
 //  HVoiceKeyboard
 //
+<<<<<<< HEAD
 //  Created by 胡晓阳 on 15/10/12.
+=======
+//  Created by 胡晓阳 on 15/10/14.
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 //  Copyright © 2015年 HXY. All rights reserved.
 //
 
@@ -11,7 +15,12 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+<<<<<<< HEAD
 #import "Constants.h"
 //#import "MBProgressHUD.h"
 
+=======
+#import "Definition.h"
+#import "MBProgressHUD.h"
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
 #endif /* HVoiceKeyboard_Prefix_pch */

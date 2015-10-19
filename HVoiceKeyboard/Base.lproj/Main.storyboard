@@ -23,6 +23,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搜索" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFm-Yf-UOd">
                                 <rect key="frame" x="43" y="199" width="289" height="21"/>
                                 <animations/>
@@ -30,10 +31,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+=======
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+<<<<<<< HEAD
                             <constraint firstItem="yAn-N1-Ekh" firstAttribute="centerX" secondItem="NFm-Yf-UOd" secondAttribute="centerX" id="8zg-c0-0VO"/>
                             <constraint firstItem="NFm-Yf-UOd" firstAttribute="centerX" secondItem="yAn-N1-Ekh" secondAttribute="centerX" id="Bs0-Dh-G4o"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NFm-Yf-UOd" secondAttribute="bottom" constant="447" id="D9p-9b-BiJ"/>
@@ -52,11 +56,25 @@
                     <connections>
                         <outlet property="myTextField" destination="yAn-N1-Ekh" id="Tid-Hy-Tk7"/>
                         <outlet property="stateLB" destination="NFm-Yf-UOd" id="bc8-KH-DLx"/>
+=======
+                            <constraint firstItem="yAn-N1-Ekh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="41" id="Loz-Cp-Zg0"/>
+                            <constraint firstItem="yAn-N1-Ekh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dol-EL-C10"/>
+                            <constraint firstItem="yAn-N1-Ekh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="57" id="rC6-P7-Fto"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myTextField" destination="yAn-N1-Ekh" id="fZC-ey-6ho"/>
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
             <point key="canvasLocation" x="321.5" y="368.5"/>
+=======
+            <point key="canvasLocation" x="293.5" y="261.5"/>
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
         </scene>
     </scenes>
 </document>

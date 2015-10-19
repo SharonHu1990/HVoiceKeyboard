@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "0AE26F811BC7BBBF005A8626"
+=======
+               BlueprintIdentifier = "0A750BDF1BCDEE2100E41283"
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
                BuildableName = "HVoiceKeyboard.app"
                BlueprintName = "HVoiceKeyboard"
                ReferencedContainer = "container:HVoiceKeyboard.xcodeproj">
@@ -32,7 +36,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "0AE26F811BC7BBBF005A8626"
+=======
+            BlueprintIdentifier = "0A750BDF1BCDEE2100E41283"
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
             BuildableName = "HVoiceKeyboard.app"
             BlueprintName = "HVoiceKeyboard"
             ReferencedContainer = "container:HVoiceKeyboard.xcodeproj">
@@ -55,7 +63,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "0AE26F811BC7BBBF005A8626"
+=======
+            BlueprintIdentifier = "0A750BDF1BCDEE2100E41283"
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
             BuildableName = "HVoiceKeyboard.app"
             BlueprintName = "HVoiceKeyboard"
             ReferencedContainer = "container:HVoiceKeyboard.xcodeproj">
@@ -74,7 +86,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "0AE26F811BC7BBBF005A8626"
+=======
+            BlueprintIdentifier = "0A750BDF1BCDEE2100E41283"
+>>>>>>> 6f27ba7b3117cacf89583355b94e5f1db913d720
             BuildableName = "HVoiceKeyboard.app"
             BlueprintName = "HVoiceKeyboard"
             ReferencedContainer = "container:HVoiceKeyboard.xcodeproj">
